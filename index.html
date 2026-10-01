@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unplug privacy policy</title>
+<!-- Mirrors PRIVACY_POLICY.md; edit both together. Published at https://billsam.github.io/unplug-privacy/ -->
+<style>
+  :root { --fg:#171D1C; --muted:#3F4947; --bg:#F6FBF9; --card:#fff; --accent:#1F5F5B; --line:#DCE5E2; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#DDE4E2; --muted:#BEC9C6; --bg:#0E1514; --card:#171D1C; --accent:#9DD0C9; --line:#2A3331; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:24px 20px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.1rem; margin:28px 0 6px; color:var(--accent); }
+  em { color:var(--muted); font-style:normal; font-size:.9rem; }
+  a { color:var(--accent); }
+  ul { padding-left:1.2rem; }
+</style>
+</head>
+<body>
+<main><div class="card">
+<h1>Unplug privacy policy</h1>
+<p><em>Last updated: 1 October 2026</em></p>
+<p>Unplug lets you choose which apps on your phone can use the internet: always, never, only on Wi-Fi, or only on mobile data. This policy explains what Unplug does with your information. The short version: <strong>everything stays on your phone, and Unplug itself has no internet access.</strong></p>
+
+<h2>How Unplug blocks apps</h2>
+<p>Android only lets an app block other apps&#x27; internet through a feature called a <strong>VPN</strong>. When you turn blocking on, Android asks you to allow Unplug&#x27;s VPN.</p>
+<p>Unplug&#x27;s VPN is <strong>local</strong>: it runs entirely on your phone and <strong>does not connect to any server</strong>. Only the apps you chose to block are sent into it. Their connection attempts are refused on the phone, and nothing is forwarded anywhere. Apps you allow are not routed through Unplug at all.</p>
+
+<h2>What Unplug reads</h2>
+<ul>
+  <li><strong>The list of apps installed on your phone</strong>, so you can set a rule for each one. Unplug reads each app&#x27;s name, icon, package name, whether it can use the internet, and the category the app declares (used to find social apps for &quot;Social off&quot;).</li>
+  <li><strong>Which network you&#x27;re on</strong> (Wi-Fi, mobile data, or none), so &quot;Wi-Fi only&quot; and &quot;Mobile only&quot; rules work.</li>
+  <li><strong>Your default phone and SMS apps</strong>, so Unplug can make sure they are never blocked.</li>
+  <li><strong>Connection attempts from blocked apps.</strong> To refuse them quickly, Unplug looks only at the technical header of each attempt (addresses and ports), answers it on the phone, and discards it. Unplug does not read, record or keep the content of any traffic, the websites an app tries to reach, or your browsing history. It keeps only a running count of refused attempts, which it shows you.</li>
+</ul>
+
+<h2>What Unplug keeps, and where</h2>
+<p>Unplug keeps your rules (for example &quot;Instagram: Wi-Fi only&quot;), your always-allowed list and your Social off settings <strong>only on your phone</strong>, in the app&#x27;s private storage. This data is excluded from cloud backup and from device-to-device transfer.</p>
+
+<h2>What Unplug shares</h2>
+<p><strong>Nothing.</strong> Unplug has no internet permission, so it can&#x27;t upload, sell or share your information. It contains no advertising, analytics or tracking.</p>
+
+<h2>Calls and texts</h2>
+<p>Normal phone calls and SMS don&#x27;t use the internet, so Unplug can&#x27;t block them, and it never blocks your phone or SMS app.</p>
+
+<h2>Your choices</h2>
+<ul>
+  <li>Turn blocking off at any time in Unplug, or remove Unplug&#x27;s VPN permission in Android Settings.</li>
+  <li>Uninstalling Unplug, or clearing its storage, deletes everything it kept.</li>
+</ul>
+
+<h2>Future features</h2>
+<p>Later versions may show how much data each app uses. That would need Android&#x27;s &quot;Usage access&quot; permission, which you grant separately and which would also stay on your phone. This policy will be updated before any such feature ships, and Unplug will ask for your permission first.</p>
+
+<h2>Children</h2>
+<p>Unplug is not directed at children under 13.</p>
+
+<h2>Kenya Data Protection Act, 2019</h2>
+<p>Unplug processes your information on your own device, for your own use, and does not transfer it to us or anyone else. If that ever changes, for example through an optional feature you choose to turn on, this policy will be updated first and the app will ask for your consent.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:getskanice@gmail.com">getskanice@gmail.com</a></p>
+</div></main>
+</body>
+</html>
